@@ -1,7 +1,7 @@
 const findBestEmployee = function (employees) {
-  // твой код
+  for (let key in employees) {
+  }
 };
-
 console.log(
   findBestEmployee({
     ann: 29,
@@ -27,3 +27,13 @@ console.log(
     chelsy: 38,
   })
 ); // lux
+
+//   let keys = Object.keys(employees);
+//   let anyEmployee = keys[0];
+//   let bestEmployee = anyEmployee;
+//   for (const key of keys) {
+//     if (employees[bestEmployee] > employees[key]) continue;
+//     bestEmployee = key;
+//   }
+//   return bestEmployee;
+// };
